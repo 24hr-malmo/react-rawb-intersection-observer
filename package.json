@@ -1,6 +1,6 @@
 {
     "name": "react-rawb-intersection-observer",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "React Component that triggers a callback when in view",
     "main": "dist/index.js",
     "directories": {
