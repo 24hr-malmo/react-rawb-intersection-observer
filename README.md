@@ -22,12 +22,12 @@ class SuperCoolComponent extends React.Component {
     }
 
     render () {
-		return (
-		    <IntersectionObserver onVisible={this.visible.bind(this)} threshold={.5}>
-            		{ this.state.visible }
-		    </IntersectionObserver>
-		);
-	}
+        return (
+            <IntersectionObserver onVisible={this.visible.bind(this)} threshold={.5}>
+                    { this.state.visible }
+            </IntersectionObserver>
+        );
+    }
 
 }
 
